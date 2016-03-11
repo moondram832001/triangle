@@ -1,0 +1,74 @@
+.wrapOne{
+  position: absolute;
+  transform-origin: 0% 100%;
+  transform: scale(1,1) skewX(0deg) translateX(140px);   
+}
+
+.one{
+  width: 141px;
+  height: 122px;
+  background:#fbfbfb;
+  position:absolute;
+  opacity:.7;
+  transform-origin: 100% 0%;
+  transform: scale(1,1) skewX(-30deg); 
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 1px #bbb;
+}
+
+.wrapTwo{
+  position: absolute;
+  transform-origin: 0% 100%;
+  transform: scale(1,1) skewX(0deg);   
+}
+
+.two{
+  width: 141px;
+  height: 122px;
+  background:transparent;
+  position:absolute;
+  background:#fbfbfb;
+  opacity:.7;
+  transform-origin: 0% 0%;
+  transform: scale(1,1) skewX(30deg); 
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 1px #bbb;
+}
+
+.unnecesaryWrapThree{
+  position: absolute;
+  transform-origin: 100% 100%;
+  transform: translateX(140px) translateY(0px);   
+}
+
+.wrapThree{
+  position: absolute;
+  transform-origin: 100% 100%;
+  transform: scale(1,1) skewY(0deg) rotate(30deg) translateX(0px);   
+}
+
+.three{
+  width: 122px;
+  height: 141px;
+  background:transparent;
+  position:absolute;
+  background:#fbfbfb;
+  opacity:.7;
+  transform-origin: 0% 100%;
+  transform: scale(1,1) skewY(30deg) rotate(0deg); 
+  cursor: pointer;
+  box-shadow: 0px  0px 20px 1px #bbb;
+}
+
+.transformWrap{
+  position: absolute;
+  transform-origin: 0% 0%;
+ }
+
+.positionWrap {
+  position: absolute;
+  top: 365px;
+  left: 50%;
+  transform: translateX(-140px);
+}
+
